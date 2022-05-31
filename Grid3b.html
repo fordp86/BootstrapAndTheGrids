@@ -64,14 +64,14 @@
 
     <main class="flex-shrink-0">
        <div class="container h-100 minheight">
-            <ul class="nav nav-pills mb-1">
-                <li class="nav-item">
-                    <a href="/Grid3.html" class="nav-link active" aria-current="page">Grid 3A</a>
+           <ul class="nav nav-pills mb-1">
+               <li class="nav-item">
+                   <a href="/Grid3.html" class="nav-link">Grid 3A</a>
+               </li>
+               <li class="nav-item">
+                <a href="/Grid3b.html" class="nav-link active" aria-current="page">Grid 3B</a>
                 </li>
-                <li class="nav-item">
-                <a href="/Grid3b.html" class="nav-link">Grid 3B</a>
-                </li>
-            </ul>
+           </ul>
             <div class="row h-100">
                 <!-- Left Column -->
                 <div class="col-7">
@@ -83,19 +83,34 @@
                     </div>
                 </div>
                 <!-- Right Column -->
-                <div class="col-5 h-100 d-flex flex-column justify-content-evenly">
+                <div class="col-5">
                     <!-- Right Top Column-->
-                    <div class="bg-dark text-light h-50 p-2 overflow-auto">
-                        <p>Lorem ipsum dolor sit amet. Autem harum ut eveniet vero ex incidunt pariatur cum inventore iusto. Qui Quis beatae qui dolorum praesentium 33 commodi iste ab deleniti delectus? Ut consectetur quisquam aut iste  sed iure consectetur et soluta quia  adipisci pariatur qui voluptas inventore et quia nihil. </p>
-                        <p>Lorem ipsum dolor sit amet. Autem harum ut eveniet vero ex incidunt pariatur cum inventore iusto. Qui Quis beatae qui dolorum praesentium 33 commodi iste ab deleniti delectus? Ut consectetur quisquam aut iste  sed iure consectetur et soluta quia  adipisci pariatur qui voluptas inventore et quia nihil. </p>
+                    <div class="bg-secondary text-light p-2">
+                        <form class="d-flex">
+                            <input class="form-control me-2" type="search" placeholder="search" aria-label="search">
+                            <button class="btn btn-outline-light" type="submit">Search</button>
+                        </form>
                     </div>
                     <!-- Right Bottom Column-->
-                    <div class="bg-dark text-light h-50 mt-2 p-2 overflow-hidden">
-                        <p>Lorem ipsum dolor sit amet. Autem harum ut eveniet vero ex incidunt pariatur cum inventore iusto. Qui Quis beatae qui dolorum praesentium 33 commodi iste ab deleniti delectus? Ut consectetur quisquam aut iste  sed iure consectetur et soluta quia  adipisci pariatur qui voluptas inventore et quia nihil. </p>
-                        <p>Lorem ipsum dolor sit amet. Autem harum ut eveniet vero ex incidunt pariatur cum inventore iusto. Qui Quis beatae qui dolorum praesentium 33 commodi iste ab deleniti delectus? Ut consectetur quisquam aut iste  sed iure consectetur et soluta quia  adipisci pariatur qui voluptas inventore et quia nihil. </p>
-                    </div>
-                    <div class="bg-dark text-light border border-top p-2">
-                        <button class="btn btn-light" type="button">Read More</button>
+                    <div class="bg-dark text-light mt-2 p-2">
+                        <h5>More Articles</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Article One
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Article Two
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">
+                                    Article Three
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
